@@ -1,9 +1,5 @@
 /*
 =====================================================================
-*   Ceevee v1.0 Layout Stylesheet
-*   url: styleshout.com
-*   03-18-2014
-=====================================================================
 
    TOC:
    a. General Styles
@@ -326,58 +322,89 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .NodeJS {
-  	width: 50%;
+  	width: 60%;
   	-moz-animation: NodeJS 2s ease;
   	-webkit-animation: NodeJS 2s ease;
 }
 .JS {
-  	width: 25%;
+  	width: 60%;
   	-moz-animation: JS 2s ease;
   	-webkit-animation: JS 2s ease;
 }
 .CPPProg {
-  	width: 50%;
+  	width: 63%;
   	-moz-animation: CPPProg 2s ease;
   	-webkit-animation: CPPProg 2s ease;
 }
 .CProg {
-  	width: 70%;
+  	width: 75%;
   	-moz-animation: CProg 2s ease;
   	-webkit-animation: CProg 2s ease;
+}
+.Python {
+   width: 45%;
+   -moz-animation: Python 2s ease;
+   -webkit-animation: Python 2s ease;
+}
+.AndroidJava {
+   width: 55%;
+   -moz-animation: AndroidJava 2s ease;
+   -webkit-animation: AndroidJava 2s ease;
 }
 
 
 @-moz-keyframes NodeJS {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes JS {
   0%   { width: 0px;  }
-  100% { width: 25%;  }
+  100% { width: 60%;  }
 }
 @-moz-keyframes CPPProg {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 63%;  }
 }
 @-moz-keyframes CProg {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 75%;  }
 }
+
+@-moz-keyframes Python {
+   0%   { width: 0px;  }
+   100% { width: 45%;  }
+ }
+
+@-moz-keyframes AndroidJava {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ }
+
+@-webkit-keyframes Python {
+   0%   { width: 0px;  }
+   100% { width: 45%;  }
+ }
+
+@-webkit-keyframes AndroidJava {
+   0%   { width: 0px;  }
+   100% { width: 55%;  }
+ } 
+ 
 @-webkit-keyframes NodeJS {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 60%;  }
 }
 @-webkit-keyframes JS {
   0%   { width: 0px;  }
-  100% { width: 25%;  }
+  100% { width: 60%;  }
 }
 @-webkit-keyframes CPPProg {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 63%;  }
 }
 @-webkit-keyframes CProg {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 75%;  }
 }
 
 /* ------------------------------------------------------------------ */
